@@ -33,6 +33,7 @@ def deleteDev(dev_id):
    mysqldb.delete(data, con)
    return jsonify(''), 200
    pass
+
 if __name__ == '__main__':
    app.run(debug=True)
    pass
